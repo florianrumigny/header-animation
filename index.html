@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./font.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Header Animation</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header-container">
+        <div class="header-logo">
+          <h1 class="poppins-bold">
+            Skillex<span class="green-point">.</span>
+          </h1>
+        </div>
+
+        <div class="header-menu">
+          <ul class="poppins-extralight header-menu-list">
+            <li>Find Passion</li>
+            <li>Categories</li>
+            <li>Skills</li>
+            <li>Customer</li>
+          </ul>
+        </div>
+
+        <div class="header-btn poppins-regular">
+          <a href="">Login</a>
+          <button><span>Free Trial</span></button>
+        </div>
+      </header>
+
+      <main class="cover-container">
+        <div class="left">
+          <div class="cover-headline">
+            <h1 class="poppins-regular">Watch. Learn. Grow.</h1>
+            <form action="" class="cover-form">
+              <label for="" class="cover-label">
+                <input type="text" />
+                <button class="poppins-regular">Go</button>
+              </label>
+            </form>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="cover-image">
+            <div
+              class="item"
+              style="
+                background-image: url('/assets/andrew-power-y9L5-wmifaY-unsplash.jpg');
+              "
+            ></div>
+            <div
+              class="item item-b"
+              style="
+                background-image: url('/assets/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg');
+              "
+            ></div>
+            <div
+              class="item"
+              style="
+                background-image: url('/assets/microsoft-365-7mBictB_urk-unsplash.jpg');
+              "
+            ></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
